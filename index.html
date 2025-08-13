@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Play Console 개발자 센터</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f4f6fb;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a73e8, #4285f4);
+            color: #fff;
+            padding: 40px 0 24px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 8px 0;
+            font-size: 2.4em;
+            letter-spacing: 1px;
+            font-weight: 300;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: #fff;
+            font-weight: 500;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: all 0.2s;
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        main {
+            max-width: 600px;
+            margin: 50px auto 0 auto;
+            background: #fff;
+            padding: 40px 32px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(60, 60, 60, 0.1);
+        }
+
+        .welcome-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .welcome-section h2 {
+            color: #1a73e8;
+            font-size: 1.8em;
+            margin-bottom: 16px;
+        }
+
+        .welcome-section p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-top: 32px;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 24px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #1a73e8;
+        }
+
+        .feature-card h3 {
+            color: #1a73e8;
+            margin: 0 0 12px 0;
+            font-size: 1.3em;
+        }
+
+        .feature-card p {
+            color: #666;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .cta-section {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 32px;
+            border-top: 1px solid #eee;
+        }
+
+        .btn-primary {
+            background: #1a73e8;
+            color: #fff;
+            padding: 12px 32px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.2s;
+        }
+
+        .btn-primary:hover {
+            background: #1557b0;
+        }
+
+        footer {
+            margin: 60px 0 0 0;
+            text-align: center;
+            color: #aaa;
+            font-size: 0.95em;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Play Console</h1>
+        <div class="subtitle">개발자를 위한 통합 관리 플랫폼</div>
+        <nav>
+            <a href="#">홈</a>
+            <a href="#">대시보드</a>
+            <a href="#">앱 관리</a>
+            <a href="#">분석</a>
+            <a href="#">설정</a>
+        </nav>
+    </header>
+    <main>
+        <div class="welcome-section">
+            <h2>🚀 개발자 여러분, 환영합니다!</h2>
+            <p>Play Console에서 여러분의 앱을 효율적으로 관리하고,<br>
+                사용자에게 최고의 경험을 제공하세요.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>📊 실시간 분석</h3>
+                <p>앱 성능과 사용자 데이터를 실시간으로 모니터링하고 인사이트를 얻으세요.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔧 앱 관리</h3>
+                <p>앱 업데이트, 배포, 버전 관리를 간편하게 처리할 수 있습니다.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💰 수익 관리</h3>
+                <p>매출 현황과 광고 수익을 한눈에 확인하고 최적화하세요.</p>
+            </div>
+            <div class="feature-card">
+                <h3>👥 사용자 피드백</h3>
+                <p>사용자 리뷰와 평점을 관리하여 앱 품질을 지속적으로 개선하세요.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <p style="color: #666; margin-bottom: 20px;">지금 바로 시작해보세요!</p>
+            <a href="#" class="btn-primary">대시보드로 이동</a>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Play Console | 개발자를 위한 최고의 도구
+    </footer>
+</body>
+
+</html>
